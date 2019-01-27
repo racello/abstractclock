@@ -30,7 +30,7 @@ function draw() {
   ellipse(width/2 + 150, height/2 + 140, s, s);
  
   //awake: 7 am - 9 pm
-  if (h > 7 && h < 21) {
+  if (hour() > 7 && hour() < 21) {
     textSize(30);
     textFont('Calibri');
     fill(203, 227, 228);
